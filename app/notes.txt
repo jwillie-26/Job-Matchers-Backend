@@ -1,0 +1,16 @@
+blogs: has_many :employees
+
+category: has_many :job_listings
+
+job-listing: belongs_to :category
+            belongs_to :employer
+            belongs_to :employee
+
+employer: has_many :employees, through: :job_listings
+        has_many :job_listings
+        
+employee:  has_many :employers, through: :job_listings
+        has_many :job_listings
+        has_many :blogs
+        
+
