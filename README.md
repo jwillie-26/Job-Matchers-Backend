@@ -26,6 +26,7 @@
 2.4.7
 
 [heroku Deployment](https://dashboard.heroku.com/apps/stark-everglades-43660)
+(https://careerconnect-production.up.railway.app)
 
 View Demo-https://job-matchers.vercel.app/
 
